@@ -1,0 +1,5 @@
+Package: funca
+Version: 0.1
+Architecture: all
+Maintainer: a@yahoo.com
+Description:Program outputs function result value as the sum of the first n elements of an infinite sequence
