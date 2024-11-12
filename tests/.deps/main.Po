@@ -1,4 +1,4 @@
-../FuncA.o: ../FuncA.cpp /usr/include/stdc-predef.h ../FuncA.h \
+main.o: main.cpp /usr/include/stdc-predef.h ../FuncA.h \
  /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -174,7 +174,7 @@
  /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc
+ /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream
 /usr/include/stdc-predef.h:
 ../FuncA.h:
 /usr/include/c++/11/complex:
@@ -388,3 +388,4 @@
 /usr/include/c++/11/bits/ostream.tcc:
 /usr/include/c++/11/bits/istream.tcc:
 /usr/include/c++/11/bits/sstream.tcc:
+/usr/include/c++/11/iostream:
