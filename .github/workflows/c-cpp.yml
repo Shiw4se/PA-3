@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ "*" ]
+    branches: [ "branchHTTPsever" ]
   pull_request:
-    branches: [ "*" ]
+    branches: [ "branchHTTPsever" ]
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4   
     - name: configure
-    - run: ./configure
+      run: ./configure
     
     - name: make
       run: make
