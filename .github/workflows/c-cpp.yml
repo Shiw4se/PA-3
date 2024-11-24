@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ "branchHTTPsever" ]
+    branches: [ "branchHTTPserver" ]
   pull_request:
-    branches: [ "branchHTTPsever" ]
+    branches: [ "branchHTTPserver" ]
 
 jobs:
   build:
@@ -20,7 +20,5 @@ jobs:
       run: make  
 
     - name: Run tests
-      run: |
-        echo "Running my_program..."  
-        ./my_program   
+      run: ./my_program   
 
