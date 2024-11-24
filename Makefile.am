@@ -1,12 +1,12 @@
 AUTOMAKE_OPTIONS = foreign
 bin_PROGRAMS = my_program
-my_program_SOURCES = main.cpp FuncA.cpp FuncA.h
+my_program_SOURCES = main.cpp FuncA.cpp FuncA.h HTTP_Server.cpp
 AM_CXXFLAGS = -std=c++17 -Wall -Wextra
 my_program_LDADD = -lm
 dist_man_MANS=FuncA.1
 dist_pkgdata_DATA=data.txt
 
-SUBDIR= tests
+SUBDIRS= tests
 
 CTRLF_DIR=$(CURDIR)/deb/DEBIAN
 CTRLF_NAME=$(CTRLF_DIR)/control
