@@ -13,9 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4   
-      
+
     - name: Configure
-      run: ./configure  # Running the configure script
+      run: ./configure  
 
     - name: Build
-      run: make  # Running make to build the project
+      run: make  
+
+    - name: Run tests
+      run: ./my_program  
