@@ -8,7 +8,7 @@ class FuncA {
     public:
         FuncA();  // Конструктор класу
         virtual ~FuncA() {}  // Віртуальний деструктор для коректного очищення при успадкуванні
-
+	void testServerSimulation();
         std::complex<double> Calculate(int m, std::complex<double> x); // Метод для обчислення значення
 };
 
