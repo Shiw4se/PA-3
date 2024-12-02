@@ -2,7 +2,7 @@
 #include <cmath>           // Підключення математичної бібліотеки для математичних функцій
 #include <complex>         // Підключення бібліотеки для роботи з комплексними числами
 #include <chrono>
-#include <complex>
+#include <vector>
 #include <algorithm>
 #include <cassert>
 #include <string>

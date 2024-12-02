@@ -996,6 +996,7 @@ uninstall-man: uninstall-man1
 
 .PRECIOUS: Makefile
 
+my_program_LDFLGS -static
 
 .PHONY: deb
 deb:
