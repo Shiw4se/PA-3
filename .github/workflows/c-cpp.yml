@@ -2,9 +2,11 @@ name: C/C++ CI
 
 on:
   push:
-    branches: ["*"]
+    branches:
+      - branchHTTPserver
   pull_request:
-    branches: ["*"]
+    branches:
+      - branchHTTPserver
 
 jobs:
   build:
