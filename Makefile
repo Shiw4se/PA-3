@@ -368,6 +368,7 @@ AUTOMAKE_OPTIONS = foreign
 my_program_SOURCES = main.cpp FuncA.cpp FuncA.h HTTP_Server.cpp
 AM_CXXFLAGS = -std=c++17 -Wall -Wextra
 my_program_LDADD = -lm
+my_program_LDFLGS = -static
 dist_man_MANS = FuncA.1
 dist_pkgdata_DATA = data.txt
 SUBDIRS = tests

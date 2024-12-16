@@ -11,9 +11,9 @@
 int CreateHTTPserver();
 
 int main() {
-    FuncA func;  // Створюємо екземпляр класу FuncA
-    // CreateHTTPserver();
-    func.testServerSimulation();
+    //FuncA func;  // Створюємо екземпляр класу FuncA
+    CreateHTTPserver();
+    //func.testServerSimulation();
     return 0;  // Повертаємо 0, щоб вказати на успішне завершення програми
 }
 

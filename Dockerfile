@@ -1,8 +1,10 @@
 FROM alpine AS build
 RUN apk add --no-cache git build-base cmake automake autoconf coreutils
 WORKDIR /home/funcimg
-RUN git clone https://github.com/Shiw4se/PA-3.git .
-RUN [ -f configure ] || autoreconf -i && chmod +x configure && ./configure && make
+COPY . /home/funcimg
+RUN autoreconf -i
+RUN ./configure
+RUN make
 
 FROM alpine
 RUN apk add --no-cache libstdc++
